@@ -1,4 +1,4 @@
-# Electricity Bill Calculator (PHP)
+﻿# Electricity Bill Calculator (PHP)
 
 A responsive web application that calculates electricity bills based on a tiered/slab-based tariff system, built using PHP and Bootstrap.
 
@@ -15,10 +15,10 @@ A responsive web application that calculates electricity bills based on a tiered
 
 | Units | Rate |
 |---|---|
-| First 50 units | ₹3.50/unit |
-| Next 100 units (51–150) | ₹4.00/unit |
-| Next 100 units (151–250) | ₹5.20/unit |
-| Above 250 units | ₹6.50/unit |
+| First 50 units | â‚¹3.50/unit |
+| Next 100 units (51â€“150) | â‚¹4.00/unit |
+| Next 100 units (151â€“250) | â‚¹5.20/unit |
+| Above 250 units | â‚¹6.50/unit |
 
 ## Technologies Used
 
@@ -49,15 +49,15 @@ Verified against the following boundary values:
 
 | Units | Expected Bill |
 |---|---|
-| 0 | ₹0.00 |
-| 1 | ₹3.50 |
-| 50 | ₹175.00 |
-| 51 | ₹179.00 |
-| 150 | ₹575.00 |
-| 151 | ₹580.20 |
-| 250 | ₹1,095.00 |
-| 251 | ₹1,101.50 |
-| 300 | ₹1,420.00 |
+| 0 | â‚¹0.00 |
+| 1 | â‚¹3.50 |
+| 50 | â‚¹175.00 |
+| 51 | â‚¹179.00 |
+| 150 | â‚¹575.00 |
+| 151 | â‚¹580.20 |
+| 250 | â‚¹1,095.00 |
+| 251 | â‚¹1,101.50 |
+| 300 | â‚¹1,420.00 |
 
 ## Future Improvements
 
@@ -65,3 +65,8 @@ Verified against the following boundary values:
 - Add support for multiple tariff plans (domestic/commercial)
 - PDF bill generation
 - Multi-language support
+
+## Screenshots
+
+![Bill calculated](screenshots/bill-calculated.png)
+
